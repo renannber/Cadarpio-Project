@@ -11,7 +11,18 @@ header {
     text-align: center;
     padding: 1rem 0;
 }
-
+.banner{
+    background-image: url(imagens/img.9.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
 nav a {
     color: #dddada;
     text-decoration: none;
@@ -105,30 +116,30 @@ main {
 
 
 #pedido{
-    color:#e01429;
+    background-color: #1d241a;
     padding: 1rem;
     border-radius: 8px;
+    color: #fff;
 }
 #lista-pedido{
-    list-style-type:none;
+    list-style: none;
     padding: 0;
 }
-
-#finalizar-pedido {
-    background-color: #3bff3b;
-    color: #d04e3a;
-    border:#d04e3a;
+#finalizar-pedido{
+    background-color: rgb(79, 241, 114);
+    color: #000000;
+    border:none;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
-     
 }
-footer {
+     
+footer{
     text-align: center;
-    background-color: #e01429;
+    background-color: #145e02;
     color: #fff;
     padding: 1rem 0;
-    font-weight: bold;
+   
 }
 
 /* Media Query para telas grandes (tablet e acima) */

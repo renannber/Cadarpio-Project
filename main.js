@@ -38,5 +38,15 @@ botoesAdicionais.forEach((botao) => {
   });
 });
 
+// Simula finalização do pedido
+const botaoFinalizarPedido = document.getElementById('finalizar-pedido');
+botaoFinalizarPedido.addEventListener("click", () => {
+  alert("Pedido Finalizado com sucesso! " + totalElemento.textContent);
 
+  // Limpa a lista de pedidos e reseta o total
+  listaPedido.innerHTML = '';
+  total = 0; 
 
+  // Atualiza o total no elemento
+  totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`; 
+});
