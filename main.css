@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #131313;
+    background-color: #0c0c0c;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 nav a {
     color: #dddada;
     text-decoration: none;
-    background-color: #7fc66b;
+    background-color: #d04e3a;
     padding: 0.5rem 1rem;
     margin: 0 1rem;
     border-radius: 4px;
@@ -32,7 +32,11 @@ main {
 }
 
 .categoria {
+    
     margin-bottom: 2rem;
+}
+.categoria h2{
+    color:#fff
 }
 
 .produto {
@@ -83,6 +87,7 @@ main {
 #contato {
     text-align: center;
     margin-top: 2rem;
+    color:#fff
 }
 
 .redes-sociais a {
@@ -94,7 +99,30 @@ main {
     text-decoration: none;
     margin: 0.5rem;
 }
+#contato h2{
+    color:#fff
+}
 
+
+#pedido{
+    color:#e01429;
+    padding: 1rem;
+    border-radius: 8px;
+}
+#lista-pedido{
+    list-style-type:none;
+    padding: 0;
+}
+
+#finalizar-pedido {
+    background-color: #3bff3b;
+    color: #d04e3a;
+    border:#d04e3a;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+     
+}
 footer {
     text-align: center;
     background-color: #e01429;
